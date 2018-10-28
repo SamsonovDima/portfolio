@@ -1,0 +1,79 @@
+body{
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    position: relative;
+}
+#block{
+    height: 100px;
+    width: 100px;
+    background: cadetblue;
+    position: fixed;
+    top: 50px;
+    left: 15px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.conteiner-title{
+    background-color: crimson;
+    height: 100vh;
+    width: 100%;
+}
+.conteiner-one{
+    background-color: rgb(49, 218, 204);
+    height: 100vh;
+    width: 100%;
+}
+.win{
+    width: 100%;
+    height: 100%;
+    border: solid 1px;
+    margin: 0 auto;
+    position: relative;
+    transform: 1s;
+}
+.block-one{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    position: absolute;
+    z-index: 4;
+}
+.block-two{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 16, 160);
+    position: absolute;
+    z-index: 3;
+}
+.block-there{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(86, 235, 148);
+    position: absolute;
+    z-index: 2;
+}
+.block-four{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(213, 243, 40);
+    position: absolute;
+    z-index: 1;
+}
+#block-one_led{
+    height: 245px;
+    width: 150px;
+    margin: 0 auto;
+}
+#block-one_led img{
+    transform: rotate(180deg);
+    width: 100%;
+}
+#block-one_on{
+    width: 25%;
+    top: 0;
+    position: absolute;
+    border-radius: 7%;
+    transition: 1s;
+}
